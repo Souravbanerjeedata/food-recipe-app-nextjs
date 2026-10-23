@@ -1,3 +1,3 @@
-export default function MealDetailPage({ param }) {
-  return <div>{param.meal}</div>;
+export default function MealDetailPage({ params }) {
+  return <div>{params.meal}</div>;
 }
